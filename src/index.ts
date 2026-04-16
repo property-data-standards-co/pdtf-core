@@ -21,3 +21,4 @@ export * from './validator/index.js';
 export * from './did/index.js';
 export * from './status/index.js';
 export * from './federation/index.js';
+export * from './assembly/index.js';
