@@ -16,7 +16,7 @@ interface CacheState {
   etag?: string;
 }
 
-const DEFAULT_REGISTRY_URL = 'https://registry.moverly.com/v1/federation';
+const DEFAULT_REGISTRY_URL = 'https://registry.propdata.org.uk/v1/federation';
 
 export class FederationRegistryResolver implements TrustResolver {
   private cache: CacheState | null = null;
